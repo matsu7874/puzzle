@@ -28,7 +28,6 @@ ban = [(['a1'], ['a2', 'b1', 'b2', 'b3']), (['a1'], ['a3', 'b1', 'b2', 'b3']),
        (['a1', 'a3'], ['a2', 'b2', 'b3']), (['a1', 'a3'], ['a2', 'b1', 'b3']),
        (['a2', 'a3'], ['a1', 'b1', 'b2']), (['a2', 'a3'], ['a1', 'b2', 'b3']),
        (['a2', 'a3'], ['a1', 'b1', 'b3'])]
-# wolf eat goat if no man with them, goat eat cabbage if no man with them.
 goal = [[], sorted(['a1', 'a2', 'a3', 'b1', 'b2', 'b3', 'boat'])]
 Q = queue.Queue()
 past = dict()
