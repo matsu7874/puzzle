@@ -9,6 +9,7 @@ def leftover(all_items, remove_items):
             leftover_items.append(i)
     return leftover_items
 
+
 LEFT = 0
 RIGHT = 1
 
